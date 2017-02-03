@@ -1,0 +1,33 @@
+* { box-sizing: border-box;
+}
+img { width: 100%; }
+
+#topImage {
+    background: url(https://unsplash.it/1000?image=19);
+    background-size: cover;
+    background-position: 0% 30%;
+    padding: 150px;
+}
+
+.row {
+display: flex;
+margin-bottom: 0px;
+}
+
+.column {
+flex: 1;
+padding: 10px;
+margin-right: 0px;
+background-color: lightpink; }
+
+.column-offset-1 { 
+    margin-left: 0%;
+}
+
+.column:last-child { 
+    margin-right: 0;
+}
+
+
+
+
