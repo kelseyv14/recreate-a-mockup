@@ -1,8 +1,10 @@
-* { box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
-img { width: 100%; }
 
-
+img {
+    width: 100%;
+}
 
 .row {
     display: flex;
@@ -12,11 +14,13 @@ img { width: 100%; }
 .navbar {
     list-style: none;
     text-align: left;
-    }
-.inline { display: inline; 
-padding: 10px 25px;
-font-weight: lighter;
-font-size: small;
+}
+
+.inline {
+    display: inline;
+    padding: 10px 25px;
+    font-weight: lighter;
+    font-size: small;
 }
 
 #topImage {
@@ -26,145 +30,118 @@ font-size: small;
     padding: 100px;
 }
 
-.title { 
+.title {
     text-align: center;
     font-weight: lighter;
-    font-size: 48px; 
+    font-size: 48px;
     color: #ffffff;
     text-shadow: 2px 4px 10px black
-   
 }
 
 .under {
     text-decoration: none;
     color: dimgrey;
-
 }
 
 .row {
-display: flex;
-margin-bottom: 0px;
-
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .column {
-flex: 1;
-padding: 10px;
-margin-right: 0px;
-background-color: #ffffff; }
-
-
-.columntest{
-display: flex;
-justify-content: space-around;
-align-items: flex-end
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
 }
 
-.personal{
+.personal {
     font-size: 10px;
     letter-spacing: 1px;
-
-}
-.five{
-font-size: 50px;
-
 }
 
-.translucent{
-font-size: 10px;
-letter-spacing: 1px;
-color: lightgrey;
-
+.five {
+    font-size: 50px;
 }
+
+.translucent {
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: lightgrey;
+}
+
 .greybox {
-     border: .5px solid;
-     border-color: lightgrey;
-     background-color: #E8E8E8;
-     font-weight: lighter;
-     font-size: 12px;
-     text-align: center;
-
-   }
-
+    border: .5px solid;
+    border-color: lightgrey;
+    background-color: #E8E8E8;
+    font-weight: lighter;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+}
 
 #box1 {
-flex: 1; 
-padding: 10px;
-margin-right: 10px;
-background-color: #618D49;
-color: white;
-margin: 15px 15px 0px 15px;
+    padding: 10px;
+    background-color: #618D49;
+    color: white;
+    text-align: center;
 }
 
-
-
-
 #box2 {
-flex: 1;
-padding: 10px;
-margin-right: 10px;
-background-color: #314082;
-color: white;
-margin: 15px 15px 0px 15px;
+    padding: 10px;
+    background-color: #314082;
+    color: white;
+    text-align: center;
 }
 
 #box3 {
-flex: 1;
-padding: 10px;
-margin-right: 10px;
-background-color: black;
-color: white;
-margin: 15px 15px 0px 15px;
-
-}
-
-.features {
-flex: 1;
-padding: 10px;
-margin-right: 10px;
-margin: 15px 15px 0px 15px;
-}
-
-.paralign {
-display: flex;
-}
-
-.info {
-flex: 1;
-padding: 10px;
-margin: 15px 15px 0px 15px;
-font-weight: lighter;
-font-size: 12px;
-
-}
-
-.header {
-letter-spacing: 2px;
-font-size: 16px;
-font-variant: small-caps;
-}
-
-.container2 {
-  padding: 10px;
-  margin-right: 10px;
+    padding: 10px;
     background-color: black;
     color: white;
     text-align: center;
+}
 
+.paralign {
+    display: flex;
+}
+
+.info {
+    flex: 1;
+    padding: 10px;
+    margin: 15px 15px 0px 15px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.header {
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.container2 {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 .row2 {
- display: inline;
+    display: inline;
     margin-bottom: 40px;
-
 }
 
 .button {
-border-radius: 12px;
-background-color: white;
-border-color: lightgrey;
-
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    background-color: white;
+    border-color: lightgrey;
+    padding: 5px;
 }
+
 
 /*.buttonbox {
      border: .5px solid;
@@ -172,11 +149,12 @@ border-color: lightgrey;
      background-color: white;
 }*/
 
-.field.field-centered{
+.field.field-centered {
     text-align: center;
-     border: .5px solid;
-     border-color: lightgrey;
-     background-color: white;
+    border: .5px solid;
+    border-color: lightgrey;
+    background-color: white;
+    padding: 20px;
 }
 
 .under2 {
@@ -187,9 +165,7 @@ border-color: lightgrey;
 .bottomcolor {
     color: lightgrey;
     font-size: 10px;
-
 }
-
 
 
 /** {
